@@ -19,21 +19,21 @@ const productFields = [
       id: "MRP",
       title: "MRP",
       placeholder: "MRP",
-      type: "input",
+      type: "number",
       required: true,
     },
     {
       id: "retailPrice",
       title: "Retail price",
       placeholder: "Retail price",
-      type: "input",
+      type: "number",
       required: true,
     },
     {
       id: "purchasePrice",
       title: "Purchase price",
       placeholder: "Purchase price",
-      type: "input",
+      type: "number",
       required: true,
     },
     {
@@ -71,7 +71,7 @@ const productFields = [
       id: "quantity",
       title: "Quantity",
       placeholder: "Quantity",
-      type: "input",
+      type: "number",
       required: true,
     },
     {
